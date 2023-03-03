@@ -235,5 +235,10 @@ namespace PBL3
             btnImage.BackgroundImage = Image.FromStream(fileDialog.OpenFile());
             
         }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

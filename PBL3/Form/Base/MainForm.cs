@@ -26,6 +26,7 @@ namespace PBL3
 {
     public partial class MainForm : Form
     {
+        
         public enum StackType
         {
             Replace, Push, Dispose, None
@@ -37,6 +38,8 @@ namespace PBL3
         public FormNotebook NotebookForm { get; private set; }
         public Form MinigameForm { get; private set; }
         public FormSetting SettingForm { get; private set; }
+        public FormTranslanteText f = new FormTranslanteText();
+
 
         private IconButton _currentBtn;
         private Form _currentChildForm;
@@ -119,7 +122,7 @@ namespace PBL3
         {
             if (_currentChildForm != null)
             {
-                if (_currentChildForm == childForm)
+                if (_currentChildForm.GetType() == childForm.GetType())
                 {
                     return;
                 }
@@ -574,6 +577,13 @@ namespace PBL3
             {
                 lblSearchType.Text = "ANH - ANH";
             }
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+            
+            OpenChildForm(f, FormStack.FormType.Strong);
+            f.exitForm += OpenChildForm;
         }
     }
 }

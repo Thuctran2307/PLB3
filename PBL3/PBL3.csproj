@@ -59,6 +59,9 @@
       <HintPath>..\packages\FontAwesome.Sharp.6.2.1\lib\net48\FontAwesome.Sharp.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data, Version=8.0.32.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -85,6 +88,12 @@
     </Compile>
     <Compile Include="FormPremium.Designer.cs">
       <DependentUpon>FormPremium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ChildForm\FormTranslanteText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ChildForm\FormTranslanteText.Designer.cs">
+      <DependentUpon>FormTranslanteText.cs</DependentUpon>
     </Compile>
     <Compile Include="Form\ChildForm\FormNotebook.cs">
       <SubType>Form</SubType>
@@ -189,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\ChildForm\FormNotebook.resx">
       <DependentUpon>FormNotebook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ChildForm\FormTranslanteText.resx">
+      <DependentUpon>FormTranslanteText.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\UtilForm\FormProfile.resx">
       <DependentUpon>FormProfile.cs</DependentUpon>

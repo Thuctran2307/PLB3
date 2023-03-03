@@ -7,3 +7,12 @@ D:\Source\Visual Studio\C#\PBL3\CustomControls\obj\Debug\CustomControls.dll
 D:\Source\Visual Studio\C#\PBL3\CustomControls\obj\Debug\CustomControls.pdb
 D:\Source\Visual Studio\C#\PBL3\CustomControls\obj\Debug\CustomControls.RJComboBox.resources
 D:\Source\Visual Studio\C#\PBL3\CustomControls\obj\Debug\CustomControls.Properties.Resources.resources
+C:\Users\vytra\source\repos\PLB3\CustomControls\bin\Debug\CustomControls.dll
+C:\Users\vytra\source\repos\PLB3\CustomControls\bin\Debug\CustomControls.pdb
+C:\Users\vytra\source\repos\PLB3\CustomControls\obj\Debug\CustomControls.csproj.AssemblyReference.cache
+C:\Users\vytra\source\repos\PLB3\CustomControls\obj\Debug\CustomControls.Properties.Resources.resources
+C:\Users\vytra\source\repos\PLB3\CustomControls\obj\Debug\CustomControls.RJComboBox.resources
+C:\Users\vytra\source\repos\PLB3\CustomControls\obj\Debug\CustomControls.csproj.GenerateResource.cache
+C:\Users\vytra\source\repos\PLB3\CustomControls\obj\Debug\CustomControls.csproj.CoreCompileInputs.cache
+C:\Users\vytra\source\repos\PLB3\CustomControls\obj\Debug\CustomControls.dll
+C:\Users\vytra\source\repos\PLB3\CustomControls\obj\Debug\CustomControls.pdb
